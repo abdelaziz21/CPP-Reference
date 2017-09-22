@@ -66,9 +66,6 @@ bool are_equal (T a, U b)
   return (a==b);
 }
 // another function template
-#include <iostream>
-using namespace std;
-
 template <class T>
 T sum (T a, T b)
 {
